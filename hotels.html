@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a37f6b53fafcb0be8e5f78839b9d46c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a37f6b53fafcb0be8e5f78839b9d46c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a37f6b53fafcb0be8e5f78839b9d46c2 = L.map(
+                "map_a37f6b53fafcb0be8e5f78839b9d46c2",
+                {
+                    center: [49.25, -123.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_883a9fb5884d40e7e2cb8ba613f6f6f5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a37f6b53fafcb0be8e5f78839b9d46c2);
+        
+    
+            var marker_1030097ac98b7c6df51665eb7d745f0e = L.marker(
+                [49.28561, -123.1158],
+                {}
+            ).addTo(map_a37f6b53fafcb0be8e5f78839b9d46c2);
+        
+    
+        var popup_9bef08adb150f0741239201f3f8357f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7551f51da2c8299c76e25791c572eeb8 = $(`<div id="html_7551f51da2c8299c76e25791c572eeb8" style="width: 100.0%; height: 100.0%;">EXchange Hotel Vancouver</div>`)[0];
+                popup_9bef08adb150f0741239201f3f8357f4.setContent(html_7551f51da2c8299c76e25791c572eeb8);
+            
+        
+
+        marker_1030097ac98b7c6df51665eb7d745f0e.bindPopup(popup_9bef08adb150f0741239201f3f8357f4)
+        ;
+
+        
+    
+    
+            var marker_9297d43d7435294ad5828eff636b202f = L.marker(
+                [49.28428, -123.1126],
+                {}
+            ).addTo(map_a37f6b53fafcb0be8e5f78839b9d46c2);
+        
+    
+        var popup_4e4e943313a3ed9c6038dc3fe79839b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0064af21f52dc0227a5bc123d541fff = $(`<div id="html_f0064af21f52dc0227a5bc123d541fff" style="width: 100.0%; height: 100.0%;">Delta Hotels Vancouver Downtown Suites</div>`)[0];
+                popup_4e4e943313a3ed9c6038dc3fe79839b7.setContent(html_f0064af21f52dc0227a5bc123d541fff);
+            
+        
+
+        marker_9297d43d7435294ad5828eff636b202f.bindPopup(popup_4e4e943313a3ed9c6038dc3fe79839b7)
+        ;
+
+        
+    
+    
+            var marker_74d61e3653409d045cec78c6f311a916 = L.marker(
+                [49.28349, -123.1127],
+                {}
+            ).addTo(map_a37f6b53fafcb0be8e5f78839b9d46c2);
+        
+    
+        var popup_5a424225646c7c98a652b2a0bd98c2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ababc8641c70b1b31bd6be4b085f24b0 = $(`<div id="html_ababc8641c70b1b31bd6be4b085f24b0" style="width: 100.0%; height: 100.0%;">Ramada Limited Downtown Vancouver</div>`)[0];
+                popup_5a424225646c7c98a652b2a0bd98c2c4.setContent(html_ababc8641c70b1b31bd6be4b085f24b0);
+            
+        
+
+        marker_74d61e3653409d045cec78c6f311a916.bindPopup(popup_5a424225646c7c98a652b2a0bd98c2c4)
+        ;
+
+        
+    
+</script>
+</html>
